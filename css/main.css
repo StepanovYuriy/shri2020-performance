@@ -11,17 +11,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block
 }
 
-@font-face {
-    font-family: OpenSansReg;
-    src: url("../assets/OpenSans-Regular.ttf");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: OpenSansLight;
-    src: url("../assets/OpenSans-Light.ttf");
-}
-
 body {
     line-height: 1
 }
