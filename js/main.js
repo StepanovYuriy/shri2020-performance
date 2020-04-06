@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
             fridgeInfoContainer.replaceWith(purchaseListContainer)
             buttonsContainer.style.display = "none";
         }
-    }, 500)
+    }, 10)
    
 
     document.getElementsByClassName("header-menu__switcher")[0].addEventListener("click", function () {
