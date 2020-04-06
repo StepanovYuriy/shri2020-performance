@@ -12,14 +12,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @font-face {
-    font-family: OpenSansReg;
-    src: url("../assets/OpenSans-Regular.ttf");
+    font-family: 'Open Sans Regular';
+    src: local('Open Sans Regular'), local('Open-Sans-Regular'),
+    url('../assets/OpenSans-Regular.woff2') format('woff2'),
+    url('../assets/OpenSans-Regular.woff') format('woff'),
+    url('../assets/OpenSans-Regular.ttf') format('truetype');
     font-weight: bold;
 }
 
 @font-face {
-    font-family: OpenSansLight;
-    src: url("../assets/OpenSans-Light.ttf");
+    font-family: 'Open Sans Light';
+    src: local('Open Sans Light'), local('Open-Sans-Light'),
+    url('../assets/OpenSans-Light.woff2') format('woff2'),
+    url('../assets/OpenSans-Light.woff') format('woff'),
+    url('../assets/OpenSans-Light.ttf') format('truetype');
 }
 
 body {
@@ -303,7 +309,7 @@ footer {
     font-weight: 700;
     height: 107px;
     line-height: 104px;
-    font-family: OpenSansReg;
+    font-family: 'Open Sans Regular', sans-serif;
 }
 
 .card_size_s {
@@ -673,7 +679,7 @@ html {
     font-weight: 700;
     padding-left: 18px;
     line-height: 27px;
-    font-family: OpenSansLight;
+    font-family: 'Open Sans Regular', sans-serif;
 }
 
 .card-specs {
