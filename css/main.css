@@ -15,6 +15,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-family: OpenSansReg;
     src: url("../assets/OpenSans-Regular.woff2");
     font-display: swap;
+    unicode-range: U+0400-044F;
     font-weight: bold;
 }
 
@@ -22,6 +23,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-family: OpenSansLight;
     src: url("../assets/OpenSans-Light.woff2");
     font-display: swap;
+    unicode-range: U+0400-044F;
 }
 
 body {
