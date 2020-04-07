@@ -13,20 +13,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 @font-face {
     font-family: OpenSansReg;
-    src: local('OpenSansReg'), local('Open Sans Regular'), local('Open-Sans-Regular'),
-    url('../assets/OpenSans-Regular.woff2') format('woff2'),
-    url('../assets/OpenSans-Regular.woff') format('woff'),
-    url('../assets/OpenSans-Regular.ttf') format('truetype');
+    src: url("../assets/OpenSans-Regular.woff2");
     font-display: swap;
     font-weight: bold;
 }
 
 @font-face {
     font-family: OpenSansLight;
-    src: local('OpenSansLight'), local('Open Sans Light'), local('Open-Sans-Light'),
-    url('../assets/OpenSans-Light.woff2') format('woff2'),
-    url('../assets/OpenSans-Light.woff') format('woff'),
-    url('../assets/OpenSans-Light.ttf') format('truetype');
+    src: url("../assets/OpenSans-Light.woff2");
     font-display: swap;
 }
 
